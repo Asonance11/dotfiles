@@ -115,6 +115,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias proj="cd ~/projects/"
+alias work="cd ~/projects/work"
+
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/oluwadabira/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -138,3 +142,10 @@ export PATH=$PATH:/home/oluwadabira/.spicetify
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# bun completions
+[ -s "/home/oluwadabira/.bun/_bun" ] && source "/home/oluwadabira/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
