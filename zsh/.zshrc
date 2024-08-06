@@ -117,6 +117,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias proj="cd ~/projects/"
 alias work="cd ~/projects/work"
+alias moss="cd ~/projects/mossgrid"
 
 
 # >>> conda initialize >>>
